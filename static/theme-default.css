@@ -1,0 +1,261 @@
+/*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,700i,800,900|Roboto:400,500,700,900,900i&display=swap');
+
+html, body {
+	overflow-x: hidden;
+}
+
+body {	
+    color: #151948;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+	font-family: 'Poppins', sans-serif;
+}
+p {
+
+    font-weight: 400;
+	font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #151948;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+	margin-bottom: 0;
+	margin-top: 11px;
+    line-height: 1.2;	
+    font-weight: 600;
+    -webkit-transition: .5s;
+    transition: .5s;
+	font-size:36px;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+a{
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a{
+	 color: #ffffff;
+}
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+    text-decoration: none;	
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+h1 {
+    font-size:38px;
+}
+h2 {
+    font-size: 32px;
+	
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+  
+}
+
+ul {
+    margin: 0;
+
+    padding: 0;
+}
+li {
+ 
+}
+input:focus,
+button:focus
+{
+	border-color:transparent;
+	outline-color:transparent;
+}
+textarea:focus{
+	border-color:transparent;
+	outline-color:transparent;
+}
+hr {
+    margin: 60px 0;
+    padding: 0px;
+    border-bottom: 1px solid #eceff8;
+    border-top: 0px;
+}
+hr.style-2 {
+    border-bottom: 1px dashed #f10;
+}
+hr.mp-0 {
+    margin: 0;
+    border-bottom: 1px solid #eceff8;
+}
+hr.mtb-40 {
+    margin: 40px 0;
+    border-bottom: 1px solid #eceff8;
+    border-top: 0px;
+}
+label {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a,i, cite, em, var, address, dfn,ol,li,ul{
+	font-style:normal;
+	font-weight:400;
+}
+
+
+
+*::-moz-selection {
+    background: #4fc1f0;
+    color: #454545;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #4fc1f0;
+    color: #454545;
+    text-shadow: none;
+}
+::selection {
+    background: #4fc1f0;
+    color: #454545;
+    text-shadow: none;
+}
+
+::placeholder {
+    color: #454545;
+    font-size: 14px;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    
+    color: #454545;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */    
+    color: #454545;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    
+    color: #454545;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    
+    color: #454545;
+}
+
+ /* Contact Area */
+.contact_form_area ::-moz-selection {
+    color: #151948;
+    text-shadow: none;
+}
+.contact_form_area ::-moz-selection {
+    color: #151948;
+    text-shadow: none;
+}
+.contact_form_area ::selection {
+    color: #151948;
+    text-shadow: none;
+}
+
+.contact_form_area ::placeholder {
+    color: #151948;
+    font-size: 16px;
+}
+.contact_form_area ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #151948;
+}
+.contact_form_area ::-moz-placeholder {
+    /* Firefox 19+ */    
+    color: #151948;
+}
+.contact_form_area :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #151948;
+}
+.contact_form_area :-moz-placeholder {
+    /* Firefox 18- */
+    color: #151948;
+}
+.blog_reply ::-moz-selection {
+    color: #151948;
+}
+.blog_reply ::-moz-selection {
+    color: #151948;
+}
+.blog_reply ::selection {
+    color: #151948;
+}
+.blog_reply::placeholder {
+    color: #151948;
+}
+.blog_reply ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #151948;
+}
+.blog_reply ::-moz-placeholder {
+    /* Firefox 19+ */    
+    color: #151948;
+}
+.blog_reply :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #151948;
+}
+.blog_reply :-moz-placeholder {
+    /* Firefox 18- */
+    color: #151948;
+}
